@@ -1,4 +1,4 @@
-//Zona de variables
+//Variables
 var nombre = [];
 var canasta2 = [];
 var canasta3 = [];
@@ -41,8 +41,6 @@ function baloncesto(nom, c2, c3, temp){
 
 }
 
-
-
 var i = 0;
 while (i < 1) {
     var na = prompt("Cual es el nombre del jugador?");
@@ -55,8 +53,6 @@ while (i < 1) {
         canasta2.push(canastaa2);
         canasta3.push(canastaa3);
         tiempo.push(tiempo1);
-
-
     }
     else{
      baloncesto(nombre, canasta2, canasta3, tiempo);
